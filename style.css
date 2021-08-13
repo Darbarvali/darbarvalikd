@@ -190,6 +190,7 @@ section .title::after {
   min-height: 500px;
   font-family: 'Ubuntu', sans-serif;
   text-align: center;
+  
 }
 
 .home .max-width {
@@ -456,7 +457,18 @@ border: 10px solid white;
     padding: 0 50px;
   }
 }
+@media (max-width: 900px){
+  .home .max-width{
+      margin-top: 10%;
+  }
+  .home .home-content{
+    margin-top: 10%;
 
+  }
+  .home{
+    height: 70vh;
+  }
+}
 @media (max-width: 947px) {
   .menu-btn {
     display: block;
@@ -553,6 +565,14 @@ border: 10px solid white;
 
   .home .home-content a {
     font-size: 20px;
+  }
+  
+  .home .home-content{
+    margin-top: 30%;
+
+  }
+  .home{
+    height: 100vh;
   }
 
   
