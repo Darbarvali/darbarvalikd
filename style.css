@@ -433,7 +433,16 @@ border: 10px solid white;
 }
 
 /* responsive media query start */
-
+@media (max-height: 1500px) {
+  .home{
+    height: 60vh;
+  }
+}
+@media (max-height: 900px) {
+  .home{
+    height: 100vh;
+  }
+}
 @media (max-width: 1500px){
   .home{
     height:50vh:;
