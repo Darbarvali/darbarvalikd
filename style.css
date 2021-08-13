@@ -432,13 +432,19 @@ border: 10px solid white;
 }
 
 /* responsive media query start */
+@media (max-width: 500px) {
+   .home{
+    height: 50vh;
+     margin-top:30%;
+  }
+}
 @media (max-width: 1104px) {
   .about .about-content .left img {
     height: 350px;
     width: 350px;
   }
   .home{
-    height: 60vh;
+    height: 70vh;
   }
   
 }
