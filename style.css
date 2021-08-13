@@ -438,7 +438,7 @@ border: 10px solid white;
     height: 60vh;
   }
 }
-@media (max-height: 900px) {
+@media (max-height: 600px) {
   .home{
     height: 100vh;
   }
