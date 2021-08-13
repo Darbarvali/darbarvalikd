@@ -968,7 +968,6 @@ border: 10px solid white;
 .container8 {
   position: relative;
   width: 100%;
-  min-height: 100vh;
   padding: 2rem;
 
   overflow: hidden;
