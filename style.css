@@ -435,7 +435,7 @@ border: 10px solid white;
 
 /* responsive media query start */
 @media (max-width:3000 px){
-     heigth:60vh;
+    top:50%;
 }
 @media (max-width: 600px){
      heigth:100vh;
