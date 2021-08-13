@@ -232,8 +232,7 @@ section .title::after {
   border: 2px solid crimson;
   transition: all 0.3s ease;
 }
-.home .home-content{
-  margin-top:50%;
+
   
 .home .home-content a:hover {
   color: crimson;
@@ -435,6 +434,16 @@ border: 10px solid white;
 
 /* responsive media query start */
 
+@media (max-width: 1500px){
+  .home{
+    height:50vh:;
+  }
+}
+  @media (max-width: 600px){
+  .home{
+    height:100vh;
+  }
+}
 @media (max-width: 1104px) {
   .about .about-content .left img {
     height: 350px;
