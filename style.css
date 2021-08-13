@@ -232,7 +232,9 @@ section .title::after {
   border: 2px solid crimson;
   transition: all 0.3s ease;
 }
-
+.home .home-content{
+  margin-top:50%;
+  
 .home .home-content a:hover {
   color: crimson;
   background: none;
@@ -529,6 +531,7 @@ border: 10px solid white;
   .max-width {
     padding: 0 23px;
   }
+  
 .home .home-content .text-1 {
   margin-top:20px;
 }
