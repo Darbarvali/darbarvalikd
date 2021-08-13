@@ -433,26 +433,15 @@ border: 10px solid white;
 }
 
 /* responsive media query start */
-@media (max-height: 1500px) {
-  .home{
-    height: 60vh;
-  }
+@media (max-width:800 px){
+     heigth:60vh;
 }
-@media (max-height: 600px) {
-  .home{
-    height: 100vh;
-  }
+@media (max-width: 600px){
+     heigth:100vh;
 }
-@media (max-width: 1500px){
-  .home{
-    height:50vh:;
-  }
-}
-  @media (max-width: 600px){
-  .home{
-    height:100vh;
-  }
-}
+
+  
+
 @media (max-width: 1104px) {
   .about .about-content .left img {
     height: 350px;
