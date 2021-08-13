@@ -437,6 +437,10 @@ border: 10px solid white;
     height: 350px;
     width: 350px;
   }
+  .home{
+    height: 60vh;
+  }
+  
 }
 
 @media (max-width: 991px) {
@@ -527,7 +531,7 @@ border: 10px solid white;
 
   }
   .home{
-    height: 70vh;
+    height: 100vh;
   }
 }
 @media (max-width: 690px) {
@@ -554,9 +558,7 @@ border: 10px solid white;
     margin-top: 20%;
 
   }
-  .home{
-    height: vh;
-  }
+ 
 }
 @media (max-width: 1200px){
   .about .about-content .left {
