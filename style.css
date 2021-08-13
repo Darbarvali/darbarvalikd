@@ -434,7 +434,7 @@ border: 10px solid white;
 }
 
 /* responsive media query start */
-@media (max-width:800 px){
+@media (max-width:3000 px){
      heigth:60vh;
 }
 @media (max-width: 600px){
