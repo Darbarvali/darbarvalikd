@@ -959,9 +959,10 @@ border: 10px solid white;
     flex-direction: column;
   }
 
-  .card {
-    max-width: 700px;
+ .card {
+    max-width: 600px;
     margin: 20px 0;
+    margin-bottom: 110px;
   }
 }
 .container8 {
