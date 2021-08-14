@@ -437,11 +437,11 @@ border: 10px solid white;
 @media (max-width:3000 px){
     top:50%;
 }
-@media (max-width: 600px) and (max-height:900){
+@media (max-width: 600px), and (max-height:900){
      heigth:100vh;
      
 }
-@media (max-width: 600px) and (max-height:2000){
+@media (max-width: 600px), and (max-height:2000){
      heigth:100vh;
      margin-top:50%;
 }
