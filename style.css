@@ -439,9 +439,11 @@ border: 10px solid white;
 }
 @media (max-width: 600px) and (max-height:900){
      heigth:100vh;
+     
 }
 @media (max-width: 600px) and (max-height:2000){
-     heigth:60vh;
+     heigth:100vh;
+     margin-top:50%;
 }
 
 
@@ -464,11 +466,11 @@ border: 10px solid white;
       margin-top: 10%;
   }
   .home .home-content{
-    margin-top: 10%;
+    margin-top: 20%;
 
   }
   .home{
-    height: 70vh;
+    height: 100vh;
   }
 }
 @media (max-width: 947px) {
