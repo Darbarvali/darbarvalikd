@@ -437,11 +437,13 @@ border: 10px solid white;
 @media (max-width:3000 px){
     top:50%;
 }
-@media (max-width: 600px){
+@media (max-width: 600px) and (max-height:900){
      heigth:100vh;
 }
+@media (max-width: 600px) and (max-height:2000){
+     heigth:60vh;
+}
 
-  
 
 @media (max-width: 1104px) {
   .about .about-content .left img {
@@ -980,7 +982,7 @@ border: 10px solid white;
  .card {
     max-width: 600px;
     margin: 20px 0;
-    margin-bottom: 200px;
+    margin-bottom: 170px;
   }
 }
 .container8 {
